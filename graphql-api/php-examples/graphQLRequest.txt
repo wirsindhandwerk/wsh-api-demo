@@ -1,0 +1,8 @@
+{
+    group(id:"xsb0zlgj2zcncks6g7zbsw4zrfwjcyuhptl6voer") { 
+        name,
+        slug,
+        status 
+    }
+}
+
