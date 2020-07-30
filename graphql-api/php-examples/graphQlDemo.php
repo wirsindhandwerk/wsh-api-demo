@@ -14,6 +14,7 @@ $host = $requestJson->host;
 
 // Read the query
 $requestQueryFromFile = file_get_contents("graphQLRequest.txt");
+$graphQLQuery = new \stdClass();
 $graphQLQuery->query = $requestQueryFromFile;
 $graphQLQueryObj = json_encode($graphQLQuery);
 
