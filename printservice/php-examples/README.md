@@ -3,7 +3,7 @@
 
 # GraphQL Demo
 * Add the request parameters in request.json
-* Add the GraphQL query in graphQLRequest.txt
+* Add the POST Data in request.txt
 * Run: php demo.php 
 
 
