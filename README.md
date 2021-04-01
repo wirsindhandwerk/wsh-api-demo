@@ -6,7 +6,7 @@ This repository contains documentation and demo code of the wirsindhandwerk publ
 # Prerequisites
 
 * Register a user on wirsindhandwerk.de
-* Get in touch with us [administrator](alexander.onea@wirsindhandwerk.de), we will provide the further details to you.
+* Get in touch with the [admin](alexander.onea@wirsindhandwerk.de), we will provide the further details to you.
 
 # Required configuration values
 
@@ -21,6 +21,6 @@ This repository contains documentation and demo code of the wirsindhandwerk publ
 
 # Resources
 
-We provide a GraphiQL Frontend for [dev](https://dev.wirsindhandwerk.de/wsh-api-webservice/v3doc) and [prod](https://www.wirsindhandwerk.de/wsh-api-webservice/v3doc )
-
-
+* GraphiQL Frontend for [dev](https://dev.wirsindhandwerk.de/wsh-api-webservice/v3doc) and [prod](https://www.wirsindhandwerk.de/wsh-api-webservice/v3doc )
+* Groups Dashboard for [dev](https://dev.wirsindhandwerk.de/dashboard/groups) and [prod](https://www.wirsindhandwerk.de/dashboard/groups)
+* [wirsindhandwerk CI/CD](https://invis.io/3UQ2U03KBFT)
