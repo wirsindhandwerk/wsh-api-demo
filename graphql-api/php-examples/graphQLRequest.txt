@@ -1,11 +1,12 @@
 {
-    group(id:"xsb0zlgj2zcncks6g7zbsw4zrfwjcyuhptl6voer") { 
+    group(id:"{GROUP_ID}") { 
         publicId
         name
         slug
         status
         members {
             publicId
+            memberId
       		name
       		zipCode
       		city
