@@ -1,18 +1,30 @@
 {
-    group(id:"{GROUP_ID}") { 
+    group(id:"{GROUP_ID}") {
         publicId
         name
         slug
         status
-        members {
-            publicId
-            memberId
-      		name
-      		zipCode
-      		city
-    	}
+        groupMembers(pageNumber:1, numRecords:100) {
+            members {
+                publicId
+                memberId
+                name
+                zipCode
+                city
+                page {
+                    id
+                    pageUrl
+                    avgRecommendation
+                    rating
+                    title
+                    reviewCount
+                    widgets {
+                        id
+                        status
+                        widgetTheme
+                    }
+                }
+            }
+        }
     }
 }
-
-
-
